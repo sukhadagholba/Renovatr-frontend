@@ -60,6 +60,13 @@
 	
 }
 
+.login-container{
+	border: 1px solid #bbb;
+	border-radius: 2px;
+}
+
+
+
 
 @media(max-width: 768px){
 	.logo{
