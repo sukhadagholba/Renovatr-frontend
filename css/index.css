@@ -1,0 +1,24 @@
+.header{
+	border-bottom: 1px solid #ccc;
+	height: 90px;
+	padding: 7px 0px 7px 0px;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.logo{
+	color: chocolate;
+}
+
+.nav-style{
+	color: teal;
+	font-size: 1.4rem;
+}
+
+.nav-style:hover{
+	color: chocolate;
+}
+
+
