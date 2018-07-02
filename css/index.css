@@ -16,6 +16,7 @@
 .nav-style{
 	color: #1CB2B2;
 	font-size: 1.3rem;
+	/*font-family: Rodus;*/
 }
 
 .nav-style:hover{
@@ -35,8 +36,28 @@
 
 .btn-submit:hover{
         background-color: #fff;
-        color: black;
+        color:  #1CB2B2;
         border: 1px solid chocolate;
+}
+
+
+.form-container{
+	background-color: #fcf1e3;
+	/*border: 2px solid #bbb;*/
+	border-radius: 5px;
+	height: 340px;
+	padding: 10% 20% 20% 25%;
+}
+
+.image-form-header{
+        color:chocolate; /*#ed9b34*/
+        font-size: 1.8rem;
+}
+
+
+
+.image-upload-container{
+	
 }
 
 
@@ -48,10 +69,18 @@
         .nav-style{
         font-size: 1rem;
         }
+
+	.form-container{
+        height: 340px;
+	}
+
+	.image-form-header{
+        font-size: 1.2rem;
+        }
 }
 
 
-@media(max-width: 420px){
+@media(max-width: 500px){
 	
 	.logo{
 	font-size: 1.6rem;
@@ -60,9 +89,19 @@
 	.form-header{
         font-size: 1.6rem;
 	}
+	
+	.image-form-header{
+	 font-size: 1.2rem;
+	}
 
 	.nav-style{
         font-size: 0.9rem;
 	}
+
+	.form-container{
+        height: 300px;
+	width: 300px;
+	padding: 15% 10% 15% 10%;
+        }
 }
 
